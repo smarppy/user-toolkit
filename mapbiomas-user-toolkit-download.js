@@ -936,6 +936,7 @@ var App = {
                     '3km',
                     '4km',
                     '5km',
+                    '10km',
                 ],
                 'placeholder': 'None',
                 'style': {
@@ -949,6 +950,7 @@ var App = {
                         '3km': 3000,
                         '4km': 4000,
                         '5km': 5000,
+                        '10km': 10000,
                     };
 
                     App.options.bufferDistance = distances[distance];
